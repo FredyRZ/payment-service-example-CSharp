@@ -1,0 +1,10 @@
+C:\Users\Sam.Lu\Documents\Visual Studio 2017\Projects\NexioPaySample_BackUp\obj\Debug\NexioPaySample.Form1.resources
+C:\Users\Sam.Lu\Documents\Visual Studio 2017\Projects\NexioPaySample_BackUp\obj\Debug\NexioPaySample.Properties.Resources.resources
+C:\Users\Sam.Lu\Documents\Visual Studio 2017\Projects\NexioPaySample_BackUp\obj\Debug\NexioPaySample.csproj.GenerateResource.Cache
+C:\Users\Sam.Lu\Documents\Visual Studio 2017\Projects\NexioPaySample_BackUp\bin\Debug\NexioPaySample.exe.config
+C:\Users\Sam.Lu\Documents\Visual Studio 2017\Projects\NexioPaySample_BackUp\bin\Debug\NexioPaySample.exe
+C:\Users\Sam.Lu\Documents\Visual Studio 2017\Projects\NexioPaySample_BackUp\bin\Debug\NexioPaySample.pdb
+C:\Users\Sam.Lu\Documents\Visual Studio 2017\Projects\NexioPaySample_BackUp\obj\Debug\NexioPaySample.exe
+C:\Users\Sam.Lu\Documents\Visual Studio 2017\Projects\NexioPaySample_BackUp\obj\Debug\NexioPaySample.pdb
+C:\Users\Sam.Lu\Documents\Visual Studio 2017\Projects\NexioPaySample_BackUp\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Sam.Lu\Documents\Visual Studio 2017\Projects\NexioPaySample_BackUp\obj\Debug\NexioPaySample.csprojResolveAssemblyReference.cache
