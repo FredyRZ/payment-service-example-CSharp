@@ -1101,7 +1101,7 @@ namespace NexioPaySample
                     {
                         switch (radio.Name)
                         {
-                            case "rb_trans_transwithId":
+                            case "rb_trans_tranwithId":
                                 try
                                 {
                                     result = TransactionService.TransactionWithTransactionId(URLBox.Text);
@@ -1325,15 +1325,15 @@ namespace NexioPaySample
             {
                 PostDataBox.Text = "";
                 URLBox.Text = "";
-                if (this.TransList.Rows.Count > 0)
+                if (this.TransFromNexioList.Rows.Count > 0)
                 {
                     
                     Boolean found = false;
                     int row = 0;
 
-                    for (int i = 0; i < this.TransList.Rows.Count; i++)
+                    for (int i = 0; i < this.TransFromNexioList.Rows.Count; i++)
                     {
-                        if (TransList[0, i].Value.ToString().ToUpper().Equals("TRUE"))
+                        if (TransFromNexioList[0, i].Value.ToString().ToUpper().Equals("TRUE"))
                         {
                             found = true;
                             row = i;
@@ -1344,7 +1344,7 @@ namespace NexioPaySample
 
                     if (found)
                     {
-                        urldata = ConfigItems.API_URL + "/transaction/v3/{{" + TransList[1, row].Value.ToString() + "}}";
+                        urldata = ConfigItems.API_URL + "/transaction/v3/" + TransFromNexioList[1, row].Value.ToString();
                         
                         URLBox.Text = urldata;
                     }
@@ -1356,7 +1356,7 @@ namespace NexioPaySample
                 }
                 else
                 {
-                    MessageBox.Show("There's no valid trans in Local Trans List, please card or eCheck trans first!");
+                    MessageBox.Show("There's no valid trans in Nexio Trans List, please do transactions first!");
                     rb_trans_tranwithId.Checked = false;
                 }
             }

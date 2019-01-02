@@ -27,30 +27,35 @@
     
 # Sample: Payment Service iFrame
 	Run application, choose 'Payment Service iFrame' tab.
-	* Get One Time Token
+## Get One Time Token
 		Choose 'Get One Time Token' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Credit Card Transaction
+		
+## Credit Card Transaction
 		Choose 'Credit Card Transaction' radio button
 		This transaction needs get Onetime-token first, so the body of 'Get One Time Token' POST data will display in 'Post Data' text box.
 		The URL for Credit Card Transaction will not display, you can find it in source code. 
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Alipay Transaction
+		
+## Alipay Transaction
 		Choose 'Alipay Transaction' radio button
 		This transaction needs get Onetime-token first, so the body of 'Get One Time Token' POST data will display in 'Post Data' text box.
 		The URL for Alipay Transaction will not display, you can find it in source code. 
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Save Card
+		
+## Save Card
 		Choose 'Save Card' radio button
 		This transaction needs get Onetime-token first, so the body of 'Get One Time Token' POST data will display in 'Post Data' text box.
 		The URL for Save Card will not display, you can find it in source code. 
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Save eCheck
+		
+## Save eCheck
 		Choose 'Save eCheck' radio button
 		This transaction needs get Onetime-token first, so the body of 'Get One Time Token' POST data will display in 'Post Data' text box.
 		The URL for Save eCheck will not display, you can find it in source code. 
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* eCheck Transaction
+		
+## eCheck Transaction
 		Choose 'eCheck Transaction' radio button
 		This transaction needs get Onetime-token first, so the body of 'Get One Time Token' POST data will display in 'Post Data' text box.
 		The URL for eCheck Transaction will not display, you can find it in source code. 
@@ -58,89 +63,109 @@
 
 # Sample: Payment Service
 	Run application, choose 'Payment Service' tab.
-	* Save Card
+## Save Card
 		Choose 'Save Card' radio button
 		This transaction needs get Onetime-token first, so the body of 'Get One Time Token' POST data will display in 'Post Data' text box.
 		The URL for Save Card will not display, you can find it in source code. 
 		Click 'Send Command' button, result will display in 'Response Data' text box.
 		A token record will be added into 'Token List' if transaction success.
-	* Card Transaction
+		
+## Card Transaction
 		Choose 'Card Transaction' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
 		A transaction record will be added into 'Local Transaction List' if transaction succeess. 
-	* Void Transaction
+		
+## Void Transaction
 		This transaction need choose one transaction in 'Local Transaction List'.
 		Choose 'Void Transaction' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Refund Transaction
+		
+## Refund Transaction
 		This transaction need choose one transaction in 'Local Transaction List'.
 		Choose 'Refund Transaction' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Capture Transaction
+		
+## Capture Transaction
 		This transaction need choose one transaction in 'Local Transaction List'.
 		Choose 'Capture Transaction' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* eCheck Transaction
+		
+## eCheck Transaction
 		Choose 'eCheck Transaction' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
 		A transaction record will be added into 'Local Transaction List' if transaction succeess. 
-	* Delete Token
+		
+## Delete Token
 		This transaction need 'Token List' is not empty. It will delete all tokens in the 'Token List'
 		Choose 'Delete Token' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
 
 # Sample: Transaction Service
 	Run application, choose 'Transaction Service' tab.
-	* Transaction (Using Transaction Id)
-		This transaction need choose one transaction in 'Local Transaction List'.
+## Transaction (Using Transaction Id)
+		This transaction need choose one transaction in 'Nexio Transaction List'.
 		Choose 'Transaction (Using Transaction Id)' radio button, the url will display in 'URL' text box.
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Transaction
+		
+## Transaction
 		This transaction need choose one transaction in 'Nexio Transaction List', it require run 'Transactions' in 'Transaction Service' tab first.
 		Choose 'Transaction' radio button, the url will display in 'URL' text box.
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Matching Transaction For FDR Chargeback
+		
+## Matching Transaction For FDR Chargeback
 		Choose 'Matching Transaction For FDR Chargeback' radio button, the url will display in 'URL' text box.
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Transaction Count
+		
+## Transaction Count
 		Choose 'Transaction Count' radio button, the url will display in 'URL' text box.
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Daily Transaction Summary
+		
+## Daily Transaction Summary
 		Choose 'Daily Transaction Summary' radio button, the url will display in 'URL' text box.
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Refund Transaction
+		
+## Refund Transaction
 		This transaction need choose one transaction in 'Nexio Transaction List', it require run 'Transactions' in 'Transaction Service' tab first.
 		Choose 'Refund Transaction' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Transaction Total
+		
+## Transaction Total
 		Choose 'Transaction Total' radio button, the url will display in 'URL' text box.
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Payment Types
+		
+## Payment Types
 		Choose 'Payment Types' radio button, the url will display in 'URL' text box.
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Bulk Void
+		
+## Bulk Void
 		This transaction need choose at least one transaction in 'Nexio Transaction List', it require run 'Transactions' in 'Transaction Service' tab first.
 		Choose 'Bulk Void' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Search Transaction
+		
+## Search Transaction
 		Choose 'Search Transaction' radio button, the url will display in 'URL' text box.
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Bulk Capture
+		
+## Bulk Capture
 		This transaction need choose at least one transaction in 'Nexio Transaction List', it require run 'Transactions' in 'Transaction Service' tab first.
 		Choose 'Bulk Capture' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Transactions
+		
+## Transactions
 		Choose 'Transactions' radio button, the url will display in 'URL' text box.
 		Click 'Send Command' button, result will display in 'Response Data' text box.
 		All records in response will be added into 'Nexio Transaction List'.
-	* Capture Transaction
+		
+## Capture Transaction
 		This transaction need choose one transaction in 'Nexio Transaction List', it require run 'Transactions' in 'Transaction Service' tab first.
 		Choose 'Capture Transaction' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Void Transaction
+		
+## Void Transaction
 		This transaction need choose one transaction in 'Nexio Transaction List', it require run 'Transactions' in 'Transaction Service' tab first.
 		Choose 'Void Transaction' radio button, the url will display in 'URL' text box, the body of POST will display in 'Post Data' text box
 		Click 'Send Command' button, result will display in 'Response Data' text box.
-	* Transaction Summary
+		
+## Transaction Summary
 		Choose 'Transaction Summary' radio button, the url will display in 'URL' text box.
 		Click 'Send Command' button, result will display in 'Response Data' text box.
